@@ -3,24 +3,6 @@ body {
     margin: 0;
 }
 
-<nav>
-    <div class="topnav" id="myTopnav">
-        <a href="#home">Home</a>
-        <a href="#news" class="active">Events</a>
-        <a href="#contact">Donate</a>
-        <a href="#about">Volunteer</a>
-        <a href="#etc">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </nav>
-12:06
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #29624D;
-}
 /* Add a tan background color to the top navigation */
 .topnav {
     background-color: tan;
@@ -75,3 +57,4 @@ body {
       text-align: left;
     }
   }
+
