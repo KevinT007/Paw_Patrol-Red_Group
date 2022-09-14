@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(53, 128, 193);
+    background-color: rgb(52, 128, 193);
     margin: 0;
     grid-template-rows: auto auto auto;
 
@@ -8,4 +8,8 @@ body{
 form{
     display: grid;
     justify-content: center;
+}
+
+.title{
+    text-align: center;
 }
