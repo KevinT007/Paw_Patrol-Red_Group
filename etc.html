@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactstyle.css" />
+    <title>PawPatrol|Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="home.html">Home</a>
+        <a href="#news" class="active">Events</a>
+        <a href="#contact">Donate</a>
+        <a href="#about">Volunteer</a>
+        <a href="etc.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <div class="title">
+      <h1>Contact Us</h1>
+    </div>
+    <main>
+      <div class="container">
+        <form action="#">
+          <label for="fname">First Name:</label>
+          <input id="fname" type="text" /><br />
+
+          <label for="lname">Last Name:</label>
+          <input id="lname" type="text" /><br />
+
+          <label for="e-mail">Email:</label>
+          <input id="e-mail" type="email" /><br />
+
+          <label for="phone">Phone Number:</label>
+          <input id="phone" type="tel" pattern="[1-9]{3}-[0-9]{3}-[0-9]{4}" />
+
+          <br /><label for="prefcon">Preffered Contact:</label>
+          <select id="prefcon">
+            <option value="na" selected>~</option>
+            <option value="call">Phone Call</option>
+            <option value="text">Text Message</option>
+            <option value="email">E Mail</option></select
+          ><br />
+
+          <label for="text-area"></label>
+          <textarea
+            id="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Ask us some questions, Give some feedback, or just leave us a message 🤗 "
+          ></textarea>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
