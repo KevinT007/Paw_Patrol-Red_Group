@@ -1,19 +1,23 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(132, 228, 132);
+    background: rgb(1, 56, 1);
 }
 
 .itemsection{
     text-align: center;
     font-size: 3vw;
     text-shadow: 3px 3px 10px gray;
+    color: white;
   }
   
   .cardcontainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    width: 95%;
+    margin: auto;
+    height: auto;
   }
   
   div {
@@ -25,7 +29,6 @@ body {
     background-color: tan;
     border-radius: 10px;
     margin: 40px;
-    margin-right: 5px;
     box-shadow: 2px 2px 10px gray;
     color: black;
     height: auto;
@@ -43,6 +46,8 @@ body {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
   }
   
@@ -59,7 +64,7 @@ body {
     font-weight: bold;
   }
   
-  .addtocart {
+  .learnmore {
     align-content: center;
     margin: auto;
     text-align: center;
