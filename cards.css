@@ -116,7 +116,7 @@ body {
   }
 
   .grow {
-    height: 30vh;
+    height: auto;
   }
 
 .footerimg {
@@ -137,4 +137,19 @@ footer {
   padding: .5vw .5vw;
   background-color: #2c4c3b;
   position: relative;
+}
+
+@media screen and (max-width: 600px) {
+
+.itemsection{
+  font-size: 6vw;
+}
+
+.itemtitle {
+  font-size: 4vw;
+}
+
+.itemdesc {
+  font-size: 2vw;
+}
 }
