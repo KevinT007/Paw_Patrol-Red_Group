@@ -184,3 +184,15 @@ h4 {
   flex: 1;
   flex-direction: row;
 }
+@media screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
+  h1 {
+    font-size: 7vw;
+  }
+
+  p {
+    font-size: 4vw;
+  }
+}
