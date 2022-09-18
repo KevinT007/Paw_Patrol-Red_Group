@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 body {
   margin: 0;
   padding: 0;
-  background-color: #29624d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
 }
 /* Add a tan background color to the top navigation */
 .topnav {
@@ -36,9 +43,23 @@ body {
 }
 
 .container {
-  display: flex;
-  float: left;
+  display: grid;
+
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 0px;
+  height: 100%;
 }
+
+form {
+  background-color: antiquewhite;
+  background-size: 0px;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  border-radius: 10px;
+}
+
 /* when screen is smaller than 600px, removes all but home link. shows burger menu to open up a responsive nav menu. */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -51,6 +72,11 @@ body {
 }
 /* responsiveness, displays nav bar vertically instead of horizontally.*/
 @media screen and (max-width: 600px) {
+  label,
+  input {
+    display: flex;
+    flex-direction: column;
+  }
   .topnav.responsive {
     position: relative;
   }
