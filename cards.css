@@ -116,7 +116,7 @@ body {
   }
 
   .grow {
-    height: auto;
+    height: 30vh;
   }
 
 .footerimg {
@@ -141,15 +141,15 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-.itemsection{
-  font-size: 6vw;
-}
-
-.itemtitle {
-  font-size: 4vw;
-}
-
-.itemdesc {
-  font-size: 2vw;
-}
-}
+  .itemsection{
+    font-size: 6vw;
+  }
+  
+  .itemtitle {
+    font-size: 4vw;
+  }
+  
+  .itemdesc {
+    font-size: 2vw;
+  }
+  }
