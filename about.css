@@ -28,10 +28,10 @@ header {
   margin: -530px auto 400px auto;
 }
 
-.headp {
-  font-size: large;
+.container {
+  margin-top: 10vw;
+  font-size: 1.5vw;
 }
-
 .center {
   display: block;
   margin-left: auto;
@@ -74,5 +74,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+  }
+  .container {
+    margin-top: 25vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    margin-top: 35vw;
+    font-size: 1.5vw;
   }
 }
