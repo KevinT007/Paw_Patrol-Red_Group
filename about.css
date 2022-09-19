@@ -14,29 +14,39 @@ nav img {
   filter: saturate(80%);
 }
 
+.banner1 {
+  width: 100vw;
+}
+
 .banner {
-  background-image: url("/Images/banner.jpeg");
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-repeat: no-repeat;
+  padding-top: 50px;
 }
 
 header {
   text-align: center;
   color: black;
-}
-
-h1 {
-  margin-top: -180px;
+  margin: -530px auto 400px auto;
 }
 
 .headp {
   font-size: large;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 footer img {
   width: 100%;
 }
+
+.footerimg {
+  width: 3vw;
+}
+
 footer {
   margin-top: 5vh;
   display: flex;
@@ -48,7 +58,21 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .banner.responsive {
-    position: relative;
+  .banner1 {
+    height: auto;
+  }
+
+  .banner {
+    color: white;
+    padding-top: 75vh;
+    margin-bottom: auto;
+    margin-top: -550px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 }
