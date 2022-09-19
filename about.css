@@ -6,12 +6,6 @@ body {
   font-family: "Oswald", sans-serif;
   color: white;
 }
-nav img {
-  width: 50px;
-  margin: 10px;
-  border-radius: 75%;
-  filter: saturate(80%);
-}
 .banner1 {
   width: 100vw;
 }
