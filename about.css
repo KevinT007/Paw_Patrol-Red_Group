@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #182c25;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+nav img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 75%;
+  filter: saturate(80%);
+}
+
+.banner {
+  background-image: url("/Images/banner.jpeg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  margin-top: -180px;
+}
+
+.headp {
+  font-size: large;
+}
+
+footer img {
+  width: 100%;
+}
+footer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.5vw 0.5vw;
+  background-color: #2c4c3b;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .banner.responsive {
+    position: relative;
+  }
+}
