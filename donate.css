@@ -190,8 +190,13 @@ h4 {
   h1 {
     font-size: 7vw;
   }
-
   p {
     font-size: 4vw;
+  }
+  .submit > input {
+    font-size: 2vw;
+  }
+  .container {
+    width: 80vw;
   }
 }
